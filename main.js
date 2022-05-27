@@ -10,7 +10,7 @@ while (user != 'continuar') {
 
     console.log('Bienvenido ' + user);
 
-    user = prompt('Bienvenido ' + user + '. Escriba "continuar" para avanzar a la calculadora')
+    user = prompt('Bienvenido ' + user + '.\nEscriba "continuar" para avanzar a la calculadora')
 }
 
 
@@ -18,7 +18,7 @@ while (user != 'continuar') {
 
 //Ejercicio FOR
 
-let multiplicando = parseInt(prompt('Que numero desea multiplicar? '))
+let multiplicando = parseFloat(prompt('Que numero desea multiplicar? '))
 let multiplicador = parseInt(prompt('Cuantas veces desea multiplicarlo? '))
 
 for (let i = 1; i <= multiplicador ; i++) {
